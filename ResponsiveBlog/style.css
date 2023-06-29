@@ -65,10 +65,47 @@
     padding: 20px 30px 20px;
     line-height: 19px;
 }
+.about h3
+{
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 80px 20px;
+}
 .about img
 {
     width: 100%;
     padding: 20px 0px 10px;
+    height: 60%;
+}
+.zdjecie1
+{
+    width: 100%;
+}
+.zdjecie2
+{
+    width: 100%;
+}
+.artykul
+{
+    width: 100%;
+}
+.artykul h2
+{
+    font-size: 30px;
+    padding: 40px 30px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.zdjecia
+{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+.zdjecia img
+{
+    width: 98%;
+    height: 70%;
 }
 @media only screen and (min-width: 1300px)
 {
@@ -121,9 +158,5 @@
 .about img
 {
     width: 96%;
-}
-.zdjecie1, .zdjecie2
-{
-    width: 100%;
 }
 }
