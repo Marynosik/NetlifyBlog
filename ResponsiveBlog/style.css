@@ -70,7 +70,7 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     padding: 20px 30px 20px;
-    line-height: 26px;
+    line-height: 19px;
 }
 .about h3
 {
@@ -87,10 +87,11 @@
 
 .zdjecia h2
 {
+    text-align: center;
     font-size: 30px;
-    padding: 30px 30px 30px;
+    padding: 0px 30px 30px;
     font-family: 'Poppins', sans-serif;
-    border-top: 1px solid gray;
+
 }
 .zdjecie1
 {
@@ -162,5 +163,20 @@
 .about img
 {
     width: 96%;
+}
+.about p
+{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 30px 20px;
+    line-height: 26px;
+}
+.zdjecia h2
+{
+    font-size: 30px;
+    padding: 30px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid gray;
+    letter-spacing: 6px;
 }
 }
